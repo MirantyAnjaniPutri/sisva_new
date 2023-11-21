@@ -6,8 +6,8 @@ import ornament_kiri from "public/desktop/landing page/Ornament.png";
 
 const section1_hero = () => {
   return (
-    <div className="bg-[#FFFFFF] border-b border-[#F96756] border-solid width-[100%] h-auto">
-      <div className="absolute bottom-5 left-0 z-0 w-full pl-[-30]">
+    <div className="bg-[#FFFFFF] border-b border-[#F96756] border-solid width-[100%] overflow-hidden relative">
+      <div className="absolute bottom-0 left-0 z-0 w-full pl-[-30]">
         <Image
           src={ornament_kiri}
           alt="ornament kiri"
