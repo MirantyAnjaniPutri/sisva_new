@@ -12,6 +12,7 @@ export const FOOTER_LINKS = [
     links: [
       "Jl. Matraman Raya No. 5, Palmeriam, Kec. Matraman, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13140",
     ],
+    keys: ["link"],
   },
 ];
 
