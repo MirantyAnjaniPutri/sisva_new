@@ -1,0 +1,76 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #ffffff; /* Add your preferred background color */
+  color: white; /* Add your preferred text color */
+}
+
+.header__logo {
+  display: flex;
+  padding: 20px; /* Adjust the height as needed */
+}
+
+.header__logo img {
+  height: 50px; /* Adjust the height as needed */
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-family: var(--khumbs-sans);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header__menu li {
+  margin-right: 25px; /* Adjust the spacing between menu items */
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-blue-old);
+}
+
+.border {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-blue-old);
+  margin-right: 25px;
+}
+
+.coba-aplikasi {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-blue-old);
+}
+
+.hubungi-kami {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--main-blue-old);
+}
+
+.header__menu-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu-mobile {
+    display: flex;
+    align-items: center;
+  }
+}

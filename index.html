@@ -1,13 +1,32 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sushiman</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <img src="assets/logo-sisva.svg" alt="logo" />
+        </div>
+        <ul class="header__menu">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang-sisva">Tentang Sisva</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <div class="border">|</div>
+          <li><div class="coba-aplikasi">Coba Aplikasi</div></li>
+          <li><div class="hubungi-kami">Hubungi Kami</div></li>
+        </ul>
+        <ul class="header__menu-mobile">
+          <li><img src="assets/menu.svg" alt="menu" /></li>
+        </ul>
+      </nav>
+    </header>
+    <script type="module" src="js/script.js"></script>
   </body>
 </html>
