@@ -4,6 +4,7 @@
 
 /* other css file imports */
 @import url("sections/header.css");
+@import url("sections/hubungi-kami.css");
 /* @import url("sections/footer.css"); */
 /* @import url("sections/hero.css"); */
 /* @import url("sections/produk.css"); */
@@ -121,7 +122,7 @@ li {
 }
 
 /* START: about us media queries */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .about-us {
     flex-direction: column;
   }
@@ -176,11 +177,11 @@ li {
   .about-us__content {
     padding: 32px;
   }
-}
+} */
 /* END: about us media queries */
 
 /* START: header media querie */
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .header__nav {
     background: var(--primary-color);
   }
@@ -198,11 +199,11 @@ li {
   .header__logo {
     padding-left: 0;
   }
-}
+} */
 /* END: header media queries */
 
 /* START: hero media queries */
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
   .hero {
     flex-direction: column;
   }
@@ -246,11 +247,11 @@ li {
   .hero-content__testimonial {
     padding: 32px;
   }
-}
+} */
 /* END: hero media queries */
 
 /* START: popular media queries */
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
   .popular-foods {
     padding: 64px 32px;
   }
@@ -259,7 +260,7 @@ li {
   .popular-foods__card.active-card {
     min-width: 100%;
   }
-}
+} */
 /* END: popular media queries */
 
 /* START: subscribe media queries */

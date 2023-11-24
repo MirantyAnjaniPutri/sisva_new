@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Sushiman</title>
+    <title>Sisva</title>
   </head>
   <body>
     <header>
@@ -15,18 +15,63 @@
           <img src="assets/logo-sisva.svg" alt="logo" />
         </div>
         <ul class="header__menu">
-          <li><a href="#beranda">Beranda</a></li>
-          <li><a href="#tentang-sisva">Tentang Sisva</a></li>
-          <li><a href="#produk">Produk</a></li>
+          <li><a href="beranda">Beranda</a></li>
+          <li><a href="tentang-sisva">Tentang Sisva</a></li>
+          <li><a href="produk">Produk</a></li>
           <div class="border">|</div>
-          <li><div class="coba-aplikasi">Coba Aplikasi</div></li>
-          <li><div class="hubungi-kami">Hubungi Kami</div></li>
+          <li class="header__menu-item">
+            <button class="coba-aplikasi" href="coba-aplikasi">
+              Coba Aplikasi
+            </button>
+          </li>
+          <li class="header__menu-item">
+            <button class="hubungi-kami" href="hubungi-kami">
+              Hubungi Kami
+            </button>
+          </li>
         </ul>
-        <ul class="header__menu-mobile">
-          <li><img src="assets/menu.svg" alt="menu" /></li>
-        </ul>
+        <div class="header__menu-mobile">
+          <button class="mobile-menu-toggle" @click="toggleMobileMenu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul v-show="isMobileMenuOpen" class="mobile-menu">
+            <!-- Your mobile menu items go here -->
+            <li><a href="beranda">Beranda</a></li>
+            <li><a href="tentang-sisva">Tentang Sisva</a></li>
+            <li><a href="produk">Produk</a></li>
+            <li>
+              <button class="coba-aplikasi" href="coba-aplikasi">
+                Coba Aplikasi
+              </button>
+            </li>
+            <li>
+              <button class="hubungi-kami" href="hubungi-kami">
+                Hubungi Kami
+              </button>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
+
+    <section class="hubungi-kami__alamat">
+      <div class="background-image-alamat">
+        <div class="background-image-alamat-overlay"></div>
+        <img class="background-img-alamat" src="assets/alamat.svg" />
+      </div>
+      <div class="alamat-depok">
+        <div class="title-alamat">
+          <img src="assets/location.svg" /><a>Alamat</a>
+        </div>
+        <div class="alamat-hubungi-kami"
+          >Perumahan Nuansa Telaga Kalibaru <br />
+          Blok E28, Kalibaru, Cilodong, <br />
+          Kota Depok, Jawa Barat</div
+        >
+      </div>
+    </section>
     <script type="module" src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,78 @@
+.background-image-alamat {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-img-alamat {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1; /* Ensure the image is above the overlay */
+}
+
+.background-image-alamat-overlay {
+  position: absolute;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, #11003e, transparent);
+  pointer-events: none; /* Ensure the overlay doesn't interfere with interactions on the content */
+  z-index: 2;
+}
+
+.alamat-depok {
+  position: absolute;
+  top: 60%; /* Place it 1/2 from the top */
+  left: 15%; /* Add margin-left */
+  transform: translateY(-50%); /* Center it vertically */
+  background: white;
+  z-index: 3;
+  padding: 40px;
+  border-radius: 25px;
+  width: 35%;
+}
+
+.title-alamat {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title-alamat a {
+  font-weight: 900;
+  font-size: 32px;
+  font-family: var(--montserrat);
+  line-height: 39px;
+}
+
+.alamat-hubungi-kami {
+  margin-left: 10%;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: var(--khumbs-sans);
+  color: #242020;
+  opacity: 75%;
+  line-height: 30px;
+  padding: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+/* .background-img::after {
+  content: "";
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(45deg, #11003e, transparent);
+  pointer-events: none; /* Ensure the overlay doesn't interfere with interactions on the content
+} */
