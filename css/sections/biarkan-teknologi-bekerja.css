@@ -1,0 +1,35 @@
+.bg-teknologi-bekerja {
+  width: 100%;
+  margin-top: 85px;
+}
+
+.ibu-guru {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.background-image-teknologi-bekerja {
+  position: relative;
+  overflow: hidden;
+}
+
+.text-gradient-teknologi-bekerja {
+  position: absolute;
+  top: 55%; /* Place it 1/2 from the top */
+  left: 42%; /* Add margin-left */
+  transform: translateY(-50%); /* Center it vertically */
+  z-index: 3;
+  padding: 40px;
+  width: 40%;
+
+  font-weight: 700;
+  font-size: 40px;
+  background-image: linear-gradient(to right, #1f8cd3, #225ed5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--khumbs-sans);
+  line-height: 40px;
+  padding: 10px;
+  text-align: left;
+}

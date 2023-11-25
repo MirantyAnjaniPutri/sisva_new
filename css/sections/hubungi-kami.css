@@ -4,10 +4,18 @@
 }
 
 .background-img-alamat {
+  overflow: hidden;
   width: 100%;
   height: auto;
   position: relative;
   z-index: 1; /* Ensure the image is above the overlay */
+}
+
+.background-img-alamat-ornament {
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
 
 .background-image-alamat-overlay {
